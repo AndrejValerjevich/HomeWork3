@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+    width: 960px;
+    margin: auto;
+}
+
+.header-container {
+    display: block;
+    margin: auto;
+    background-image: url("header.jpg");
+    background-size: cover;
+    height: 250px;
+    border-radius: 0 0 110px 110px;
+    opacity: 0.9;
+}
+
+.header-h1 {
+    margin: auto 20px;
+    text-align: left;
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 200px;
+    font-family: "Courier New";
+    color: white;
+}
+
+.header-container__h1 {
+    position: relative;
+    height: 50%;
+}
+
+.main-container {
+    height: 350px;
+    display: block;
+}
+
+.main-container-h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 30px;
+    font-family: "Courier New";
+    color: firebrick;
+    text-align: center;
+}
+.main-container-h2 {
+    font-size: 3.4em;
+    font-weight: 800;
+    margin: 40px 0px 0px 0px;
+    border: solid firebrick 3px;
+    border-radius: 20px;
+    font-family: "Courier New";
+    color: firebrick;
+    text-align: center;
+}
+
+.main-container-fieldset-animals-h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+    border: solid firebrick 2px;
+    border-radius: 20px;
+    font-family: "Courier New";
+    color: firebrick;
+    text-align: center;
+}
+
+.main-container-fieldset-main {
+    margin: 10px auto;
+    width: 70%;
+    height: 100%;
+    border: 0px;
+    border-radius: 50px;
+    background-image: url("main.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.main-container-fieldset-animals {
+    margin: 10px auto;
+    width: 70%;
+    border: solid firebrick 3px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.header-container-link {
+    font-family: "Courier New";
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-left: 130px;
+}
+
+.header-container-link:hover {
+    color: firebrick;
+}
+
+.answer-text-color {
+    color: firebrick;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.inputNumber-form {
+    border: 3px solid firebrick;
+    border-radius: 15px;
+    width: 400px;
+    height: 30px;
+    font-family: "Courier New";
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.fieldset-image {
+    text-align: center;
+    margin: 0px;
+}
+
